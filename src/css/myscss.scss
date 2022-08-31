@@ -1,0 +1,13 @@
+.box {
+    width: 100px;
+    height: 100px;
+    // background-color: aqua;
+    // 这里相对路径是相对于引用了该css的html文件
+    background-image: url("../../img/1.jpg");
+    background-size: cover;
+
+}
+
+.font {
+    display: flex;
+}
